@@ -4,7 +4,7 @@
 #include <string>
 #include "player.h"
 using namespace std;
-
+//use std::string istead of using namespace.
 class Action {
 
 	private:
