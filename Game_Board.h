@@ -8,6 +8,7 @@
 class Game_Board {
 
 	private:
+	//you may not need this private indicator because c++'s class default is private
 	    Space spaces[40];
 	    Player* players;
 	    MoveAction movement;
