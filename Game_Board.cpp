@@ -922,6 +922,6 @@ void Game_Board::displayVertical(int firstSpace, int lastSpace, int numPlayers){
 }
 
 
-
+/*there are a few places where you should declare some integer variables as unsigned if there is a 0% chance negative number will not be received.*/
 
 
