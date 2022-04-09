@@ -1,7 +1,7 @@
 #include "dice.h"
 #include <cstdlib>
 #include <ctime>
-
+/*consider useing unsigned int dice instead of int dice because you cannot roll a negative value on a die*/
 Dice::Dice(){
 	sides = 6;
 }
